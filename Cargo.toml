@@ -1,0 +1,16 @@
+[package]
+name = "same_render"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2.1.0"
+font-kit = "0.13.1"
+pathfinder_geometry = "0.5.1"
+pbr = "1.1.1"
+prettytable = "0.10.0"
+show-image = "0.14.0"
+
+[[bin]]
+name = "sr"
+path = "bin/sr.rs"
